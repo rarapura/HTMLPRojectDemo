@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+	background-color:#e6fff5;
+    
+}
+main {
+    flex: 1;
+}
+#carouselExampleIndicators img {
+	margin-left:200px;
+    width: 70%;
+    height: calc(70vh - 35px - 35px);
+	 padding-left: ($spacer-x * 3) !important;
+
+}
+#second-navbar {
+    background-color: #dde;
+    display: flex;
+}
+.navbar-brand img{
+ width:110px;}
+.nav-link{
+    color: #ff6699!important;
+font: size 20px;
+    font-weight: 600;
+ margin-left: 30px;
+}
+.navbar-toggler img{
+width: 25px;
+}
+.my-5 {
+    margin-top: 1rem!important;
+    margin-bottom:none;
+width:200;
+}
+.row{
+overflow:hidden;
+}
+.ext-center{
+	width:500;
+}
+.py-5 {
+	width:600;
+    padding-top: 1rem!important;
+padding-bottom: 1rem!important;}
+.navbar-toggler {
+  color: #0f12e2
+  border-color:red ;
+}
+.navbar-brand{
+    padding: left 10px;
+ 
+}
+.nav-link ul li::after{
+    content: ' ';
+    width:0%;
+    height:2px;
+    background: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+
+.nav-link ul li:hover{
+        width:100%;
+        background-color: brown;}
+.nav-link:hover{
+	width:100%;
+}
+
+.container-md{
+	padding:none;
+	margin-top:none;
+	
+}
+@import "bootstrap/scss/bootstrap.scss";
+
+.bg-image-full {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+	height:530px;
+}
+.carousel slide{
+padding-left:30px;
+position:center-right;
+}
+[class*="col"]{
+    padding: 1rem;
+   
+    
+    color: brown;
+    text-align: center;
+}
+[class*="con"]{
+	margin-top:40px;
+    padding: 1rem;
+    
+    
+    
+    text-align: center;
+}
+.carousel-control-next.button{
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #666;
+    height: 100px;
+    padding: 20px;
+}
+footer a {
+    margin: 5px;
+    text-decoration: none !important;
+}
+.social-icon {
+	margin-top:none;
+    
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #666;
+   background-color:#666;
+    border-radius: 50%;
+}
+.social-icon:hover {
+    color: #222;
+}
