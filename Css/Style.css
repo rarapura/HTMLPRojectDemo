@@ -1,19 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-	background-color:#e6fff5;
+    background-color:#e6fff5;
     
 }
 main {
     flex: 1;
 }
-#carouselExampleIndicators img {
-	margin-left:200px;
-    width: 70%;
-    height: calc(70vh - 35px - 35px);
-	 padding-left: ($spacer-x * 3) !important;
 
-}
+
 #second-navbar {
     background-color: #dde;
     display: flex;
@@ -82,9 +77,11 @@ padding-bottom: 1rem!important;}
     background-size: cover;
 	height:530px;
 }
-.carousel slide{
-padding-left:30px;
-position:center-right;
+
+
+#carouselExampleIndicators img {
+    width: 100%;
+    height: calc(100vh - 56px - 50px);
 }
 [class*="col"]{
     padding: 1rem;
@@ -105,6 +102,9 @@ position:center-right;
 
 }
 
+con:hover {
+    color: #222;
+}
 footer {
     display: flex;
     justify-content: center;
@@ -117,16 +117,39 @@ footer a {
     text-decoration: none !important;
 }
 .social-icon {
-	margin-top:none;
-    
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px;
     color: #666;
-   background-color:#666;
+    background-color: #f7f2f2 !important;
     border-radius: 50%;
 }
 .social-icon:hover {
-    color: #222;
+    color: #f8f5f5;
+}
+div.container-md h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+font-weight: bolder;
+text-align:center;
+    color: #6f42c1;
+}
+
+div.col-lg-12 h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+font-weight: bolder;
+text-align:left;
+    color: #6f42c1;
+}
+
+#go-top-button {
+    width:50px;
+    height:50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 50%;
 }
